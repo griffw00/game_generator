@@ -3,21 +3,28 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Game Reccomender</title>
-  <link rel="stylesheet" type ="text/css" href="style.css">
+  <title>Game Recommender</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+    body {
+      font-family: 'Anta', sans-serif;
+    }
+  </style>
 </head>
 
 <body>
   <div class="container"> 
     <div class = "row text-center">
     <h1> 
-      Can't decide on a game?
+      Feeling adventerous?
     </h1> 
-    <h5>Get a random co-op game by clicking below!</h5>  
+    <h5>Try a free game by clicking below!</h5>
       <button class="button-primary" id = "get-game">CLICK ME</button>
-    </div>  
+    </div>
   <div id="game" class = "row game"></div>
   </div>
 </body>
-
+<script type= "module" src="app.js"></script>
 </html>
